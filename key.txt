@@ -1,0 +1,31 @@
+https://drive.google.com/drive/folders/1YYAl88eHQ5gUlKcKgme6fouz00KvFXnV
+
+// for android
+%ANDROID_HOME%\emulator;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;%ANDROID_HOME%\tools\bin;
+
+// for mac
+sudo nano .bash_profile
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export JAVA_HOME=
+export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin
+
+react-native run-android
+
+adb // ถ้าใช้ไม่ได้ให้ไปที่พาน ANDROID_HOME แล้วใช้คำสั่ง adb
+
+advmanager // ใช้หา device emulator
+
+emulator @Nexus_5X_API_28_x86
+
+emulator -avd Nexus_5X_API_28_x86
+
+adb devices // เปิด develop option -> usb debug open && ติดตั้งแอปจากแหล่งที่ไม่รู้จัก
+
+// for emolator
+หลังกด save
+ctrl+m or rr //set reload or clike reload
+
+ref:
+https://github.com/oblador/react-native-vector-icons
+https://wix.github.io/react-native-navigation/#/docs/Installing
+
