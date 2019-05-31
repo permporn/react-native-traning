@@ -10,6 +10,7 @@ export JAVA_HOME=
 export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin
 
 react-native run-android
+
 AIzaSyCeeAsqDutdaog2WNTa6h85J-UYeY_Zfio
 
 
@@ -33,4 +34,5 @@ https://wix.github.io/react-native-navigation/#/docs/Installing
 https://github.com/react-native-community/react-native-image-picker
 https://github.com/react-native-community/react-native-geolocation
 https://github.com/react-native-community/react-native-maps
+https://console.developers.google.com/apis/dashboard?project=googelmap-153306
 
